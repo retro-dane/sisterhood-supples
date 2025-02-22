@@ -1,0 +1,48 @@
+/* General Layout Styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Arial", sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7b3f00; /* Adjust to match logo color */
+  padding: 15px 20px;
+  color: white;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.navLinks a:hover {
+  color: #ffb703; /* Accent color from the logo */
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #7b3f00;
+  color: white;
+  padding: 15px 0;
+  margin-top: auto;
+}
+
+/* Main Content */
+.mainContent {
+  flex: 1;
+  padding: 20px;
+}
